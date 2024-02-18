@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/veeravelS",
   resume:
-    "https://drive.google.com/file/d/1vjlfTBSLiVUorPc4-D3ZOdpOayWKnhe8/view?usp=sharing",
+    "https://drive.google.com/file/d/1PllQwPXUn8bG4ZuNy-Opf_h_8G_lz6tr/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/veeravel",
   email:"mailto:sveerave16@gmail.com",
   phone:"tel:+91 6369441531",
@@ -117,31 +117,31 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Personal Portfolio Website",
-    date: "Dec 2023",
-    description:
-      "Developed a Dynamic personal portfolio website to showcase skills,project and professional background ,providing comprehensive overview of expertise in web development .",
-    image:
-      "https://i.ibb.co/bKX0xfz/portfolio-image.png",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React JS"],
-    github: "https://github.com/veeravelS/Personal-portfolio-Website",
-    webapp: "https://podstream.netlify.app/",
-  },
-  {
-    id: 2,
     title: "Weather App",
-    date: "jan 2023",
+    date: "Dec 2023",
     description:
       "Developed weather app using Open Weather API to fetch data, dynamically binding it to create an interactive UI for real-time weather updates.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://i.ibb.co/SBjJpvz/weatherapp-image.png",
     tags: [
       "HTML",
       "CSS",
       "Javascript",
       "React JS",
     ],
-    github: "https://github.com/veeravelS/Wheather-app.git",
-    webapp: " https://veeravels.github.io/Wheather-app/",
+    github: "https://github.com/veeravelS/Weather--app.git",
+    webapp: "https://veeravels.github.io/Weather--app/",
   },
+  {
+    id: 2,
+    title: "Personal Portfolio Website",
+    date: "Jan 2023",
+    description:
+      "Developed a Dynamic personal portfolio website to showcase skills,project and professional background ,providing comprehensive overview of expertise in web development .",
+    image:
+      "https://i.ibb.co/bKX0xfz/portfolio-image.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React JS"],
+    github: "https://github.com/veeravelS/Personal-portfolio-Website.git",
+    webapp: " https://veeravels.github.io/Personal-portfolio-Website/",
+  }
 ];
