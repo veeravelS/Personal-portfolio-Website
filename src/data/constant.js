@@ -141,7 +141,7 @@ export const projects = [
       "Javascript",
       "React JS",
     ],
-    github: "https://github.com/veeravelS/Weather-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/veeravelS/Wheather-app.git",
+    webapp: " https://veeravels.github.io/Wheather-app/",
   },
 ];
