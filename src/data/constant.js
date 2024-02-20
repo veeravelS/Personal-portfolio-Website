@@ -122,7 +122,7 @@ export const projects = [
     description:
       "Developed weather app using Open Weather API to fetch data, dynamically binding it to create an interactive UI for real-time weather updates.",
     image:
-      "https://i.ibb.co/SBjJpvz/weatherapp-image.png",
+      "https://i.ibb.co/DV8zqy2/weatherapp-image.png",
     tags: [
       "HTML",
       "CSS",
@@ -135,13 +135,25 @@ export const projects = [
   {
     id: 2,
     title: "Personal Portfolio Website",
-    date: "Jan 2023",
+    date: "Jan 2024",
     description:
       "Developed a Dynamic personal portfolio website to showcase skills,project and professional background ,providing comprehensive overview of expertise in web development .",
     image:
-      "https://i.ibb.co/bKX0xfz/portfolio-image.png",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React JS"],
+      "https://i.ibb.co/k9bh0N0/portfolio-image.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React JS","Styled Components"],
     github: "https://github.com/veeravelS/Personal-portfolio-Website.git",
     webapp: " https://veeravels.github.io/Personal-portfolio-Website/",
+  },
+  {
+    id: 3,
+    title: "Form Validation using jQuery",
+    date: "Jan 2024",
+    description:
+      "This dynamic project enhances user experience by implementing robust client-side validation, ensuring accurate and error-free data submissions. It reflects my skills in front-end development.",
+    image:
+      "https://i.ibb.co/8Xc13XC/Form-validation-image.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "jQuery"],
+    github: "https://github.com/veeravelS/Form-validation.git",
+    webapp: "https://veeravels.github.io/Form-validation/",
   }
 ];

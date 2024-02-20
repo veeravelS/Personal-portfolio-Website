@@ -57,7 +57,7 @@ const HeroInnerContainer = styled.div`
     flex-direction: column;
     width: auto;
     height: 100vh;
-    margin-bottom: 270px;
+    margin-bottom: 230px;
   }
 `;
 

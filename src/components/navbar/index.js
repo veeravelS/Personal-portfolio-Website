@@ -159,6 +159,7 @@ const Nav = styled.div`
     `;
 
   const ResumesButton = styled.a`
+    margin-top:10px;
     border-radius:50px;
     text-decoration:none`;
  
