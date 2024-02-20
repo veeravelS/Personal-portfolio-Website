@@ -23,7 +23,7 @@ const Container = styled.div`
   }
    @media(max-width:468px){
     padding:0;
-    width:300px;
+    width:320px;
     justify-content:center;
   
   `;
