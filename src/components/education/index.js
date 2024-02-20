@@ -19,8 +19,13 @@ const Container = styled.div`
   padding:40px 0px 80px 0px;
 
   @media(max-width:960px){
-    padding:0px;
+    padding:0;
   }
+   @media(max-width:468px){
+    padding:0;
+    width:300px;
+    justify-content:center;
+  
   `;
 
   const Wrapper = styled.div`
@@ -52,7 +57,7 @@ const Container = styled.div`
     text-align:center;
     color:${({ theme })=>theme.text_secondary};
     
-    @media(max-width:768opx){
+    @media(max-width:768px){
       font-size:16px;
     }`;
 
@@ -65,6 +70,7 @@ const Container = styled.div`
     align-items:center;
     justify-content:center;
     gap:12px;
+    
     `;
   
 

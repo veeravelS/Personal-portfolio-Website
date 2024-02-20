@@ -17,12 +17,12 @@ const Card = styled.div`
     box-shadow:rgba(23,92,230,0.15) 0px 4px 24px;
     
     &:hover{
-        box-shodow:0px 0px 0px rgba(0,0,0,0,2);
+        box-shadow:0px 0px 0px rgba(0,0,0,0,2);
         transform:translateY(-5px);
     }
 
-    @media(max-width:768px){
-        padding10px;
+    @media(max-width:468px){
+        padding:10px;
         gap:8px;
         width:300px;
     }
