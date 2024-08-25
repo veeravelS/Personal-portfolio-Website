@@ -155,5 +155,17 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript", "Bootstrap", "jQuery"],
     github: "https://github.com/veeravelS/Form-validation.git",
     webapp: "https://veeravels.github.io/Form-validation/",
+  },
+  {
+    id: 4,
+    title: "Currency Convertor App",
+    date: "May 2024",
+    description:
+      "This dynamic project enhances user experience by implementing robust client-side validation, ensuring accurate and error-free data submissions. It reflects my skills in front-end development.",
+    image:
+      "https://i.ibb.co/9NxzRPX/currency-convertor.png",
+    tags: ["HTML", "CSS", "Javascript","React"],
+    github: "https://github.com/veeravelS/Currency-Convertor.git",
+    webapp: "https://veeravels.github.io/Currency-Convertor/",
   }
 ];
