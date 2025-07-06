@@ -47,7 +47,7 @@ const CardContainer = styled.div`
     gap:28px;
 `;
 
-const Projects=()=>{
+const Projects=({openModal,setOpenModal})=>{
   return (
     <Container  id="project">
         <Wrapper>
@@ -56,7 +56,7 @@ const Projects=()=>{
             I have worked on a wide range of projects in my web development journey . Here are some of my projects.
         </Desc>
         <CardContainer>
-                <ProjectCard />
+                <ProjectCard openModal={openModal} setOpenModal={setOpenModal} />
         </CardContainer>
         </Wrapper>
     </Container>

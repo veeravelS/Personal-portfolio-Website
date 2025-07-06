@@ -65,7 +65,6 @@ const Title = styled.div`
   color:${({theme})=>theme.text_secondary};
   overflow-hidden:
   text-overflow:ellipsis;
-  white-space:nowrap;
   max-width:100%;
   -webkit-line-clamp:2;
   -webkit-box-orient:vertical;`;
@@ -84,6 +83,10 @@ const Description = styled.div`
   color:${({theme})=>theme.text_secondary+99};
   -webkit-box-orient:vertical;
   display:-webkit-box;
+   -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-top:8px;
   max-width:100%;`;
 
@@ -129,12 +132,12 @@ const Button = styled.a`
   `
 
 
-const ProjectCard=()=>{
+const ProjectCard=({openModal,setOpenModal})=>{
   return (
     <ProjectContainer>
     {projects.map((project)=>{
       return(
-        <Card>
+        <Card onClick={()=>setOpenModal({state:true,project:project})}>
         <Image src={project.image} />
         <Tags>
           {project.tags.map((tag)=>{
@@ -148,10 +151,10 @@ const ProjectCard=()=>{
             <Date>{project.date}</Date>
             <Description>{project.description}</Description>
           </Details>
-          <ButtonGroup>
+          {(project.github || project.webapp) && <ButtonGroup>
             <Button dull href={project.github} target="new">View Code</Button>
             <Button href={project.webapp} target="new">View Live</Button>
-          </ButtonGroup>
+          </ButtonGroup>}
         </Card>
       )
       })}

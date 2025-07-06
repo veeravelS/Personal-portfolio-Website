@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/veeravelS",
   resume:
-    "https://drive.google.com/file/d/1D5zN3fCvCGIrBDWiqcEagy_Ee3EKN1rO/view?usp=sharing",
+    "https://drive.google.com/file/d/1g7iGUC2E3gQtpFAbl6yeCU385GOOkH7i/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/veeravel",
   email:"mailto:sveerave16@gmail.com",
   phone:"tel:+91 6369441531",
@@ -53,7 +53,14 @@ export const skills = [
         name: "Tailwind CSS",
         image:
           "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
+      },{
+        name:"Shadcn UI",
+        image:"https://avatars.githubusercontent.com/u/139895814?v=4"
       },
+      {
+         name:"Ant Design",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZtFyi4pRFo-xHoc30sSFzYVAzXc2lNKkmlhYnLPGBdh32UeiDFnhxsfereVqRpfEaf8&usqp=CAU"
+      }
     ],
   },
   {
@@ -211,5 +218,38 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript","React"],
     github: "https://github.com/veeravelS/Currency-Convertor.git",
     webapp: "https://veeravels.github.io/Currency-Convertor/",
-  }
+  },
+  {
+  id: 5,
+  title: "Online Food Delivery Web App (User & Admin Panel)",
+  date: "June 2025",
+  description:
+    "A fully responsive and scalable web application with both user and admin panels, built using React and Redux. It features dynamic cart management, secure authentication, subscription workflows, and comprehensive admin controls.",
+  image: "https://img.freepik.com/premium-vector/confidential-stamp-confidential-square-sign_822766-10525.jpg",
+  tags: ["HTML", "CSS", "JavaScript", "React", "Redux", "Tailwind CSS"],
+  github: "",
+  webapp: "",
+},
+{
+  id: 6,
+  title: "Mobile App Admin Panel (Content & User Management)",
+  date: "February 2025",
+  description:
+    "Developed a role-based multilingual admin panel for managing users, experts, roles, and content moderation. Features include drag-and-drop user display, banned words filtering, and dynamic configuration based on country and category.",
+  image: "https://img.freepik.com/premium-vector/confidential-stamp-confidential-square-sign_822766-10525.jpg",
+  tags: ["HTML", "CSS", "JavaScript", "React", "Redux"],
+  github: "",
+  webapp: "",
+},
+{
+  id: 7,
+  title: "CMS Admin Panel for Landing Page",
+  date: "December 2024",
+  description:
+    "Built a multilingual CMS admin panel with dynamic modules for managing assets, blogs, SEO metadata, and country-specific content. Enabled non-technical users to update landing page content with ease through a user-friendly interface.",
+  image: "https://img.freepik.com/premium-vector/confidential-stamp-confidential-square-sign_822766-10525.jpg",
+  tags: ["HTML", "Tailwind CSS", "JavaScript", "React", "Redux"],
+  github: "",
+  webapp: "",
+}
 ];
