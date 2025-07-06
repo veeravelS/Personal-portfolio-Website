@@ -82,6 +82,10 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
+        name:"Vercel",
+        image:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAaVBMVEUAAAD///8FBQXw8PBiYmLY2Nj19fX6+vqmpqbm5ubr6+sXFxc9PT3u7u5sbGyPj4+Xl5e5ubnAwMBISEh5eXkhISFOTk7MzMxYWFiIiIgpKSmxsbE1NTXV1dVnZ2eUlJR1dXUwMDCenp4qOBGAAAAB5UlEQVR4nO3b2VLCQBSE4RwkKAZBQFRcEH3/h7TciTnZtMo+cf7vCbr6aqYnyTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjnymTjAcY8vVEYbjzGyuzjAUCzM7UocYCntxrk4xDMvXsmykzjEEs7eubKUOMgT5e1m2VieJb/7RlU3VUeKbfJZlF+os0T19dWXH6jDBFXboRB0ntlWpLNuo80R2We7KrtSBIpt+K8uu1YniuvjelZ2qI8V1XCnLtupMUZ1UuzJThwrqxuvKbtWxYrpyy7I7da6Irv2u7F4dLKLTmrJsp04Wz6KuKxbmqtquzB7U2aJZNpTFwlx219QVC3NZ3liW8UB9YN7cFQvzoaOWsmyvThjHeVtXNlFHDGPU2hUL86dVe1dmhTplDOsuXbEwv6lsyT4W5szbkn0cHzJ3S/axMPtbsk8dVW7TvSsW5pot2feoTqtVtyX7El+Ya7dk31idV2nbr6u0F+aeXSW9MN/2Livd40PzluxbqkOrtGzJvkQX5t1Pukr1F6jWLdm3V+dWaN+SfSkuzF22ZN+TOvrf67Ql+5JbmLttyb7kHqg7bsm+S3X6v9X3UliW2BWxGP1GwWc1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8ozirINWdkN7N8AAAAASUVORK5CYII="
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
