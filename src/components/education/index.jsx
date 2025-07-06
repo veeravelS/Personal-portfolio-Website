@@ -25,7 +25,7 @@ const Container = styled.div`
     padding:0;
     width:320px;
     justify-content:center;
-  
+   }
   `;
 
   const Wrapper = styled.div`

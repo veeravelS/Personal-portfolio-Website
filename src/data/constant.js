@@ -49,6 +49,11 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
+      },
     ],
   },
   {
@@ -79,10 +84,49 @@ export const skills = [
         image:
           "https://www.svgrepo.com/show/354202/postman-icon.svg",
       },
+      {
+        name:"Socket.io",
+        image:"https://socket.io/images/logo-dark.svg"
+      }
     ],
   },
 ];
-
+  export const experiences = [
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/D4E0BAQFDjJSMkxWEAQ/company-logo_200_200/company-logo_200_200/0/1718779633884/gnxtace_logo?e=1757548800&v=beta&t=8YZIBsVcNjnCzX398FYXUTHzqvpeRKS4go5oj4_UeyU",
+    role: "Software Developer",
+    company: "Gnxtace Technologies",
+    date: "May 2024 - June 2025",
+desc: "Built a responsive meal delivery web app using React.js and Redux with role-based access for users and admins. Integrated Stripe for payments and REST APIs for orders, subscriptions, and menus. Designed user-friendly UI and developed admin features for managing meals and users.",    skills: [
+      "ReactJS",
+      "Redux",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Ant Design",
+    ],
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQGJg6Uq13rp_A/company-logo_200_200/company-logo_200_200/0/1630670128152/jnanain_logo?e=2147483647&v=beta&t=k0XpHCFSlhfiQZTOAM7OdTw0HeECR-emtfT0sWxSg6U",
+    role: "Software Developer Intern",
+    company: "Jnana Inventive Private Limited",
+    date: "January 2024 - April 2024",
+desc: "Assisted in building and enhancing web application features, fixing bugs, and improving UI components. Collaborated with senior developers to understand scalable coding practices and contributed to front-end development tasks using React and JavaScript.",
+     skills: [
+      "ReactJS",
+      "Redux",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ant Design",
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  },
+];
 
 export const education = [
   {
@@ -96,7 +140,7 @@ export const education = [
   },
   {
     id: 1, 
-    img: "https://scontent.fmaa2-4.fna.fbcdn.net/v/t1.6435-9/41675852_377631672774955_7240781168419799040_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=be3454&_nc_ohc=gzLv3vPLK_0AX9pGuct&_nc_ht=scontent.fmaa2-4.fna&oh=00_AfD9cc7dsLc6qX0jcoRtluulwXjsTmiqMiOUVqakZ2uIGg&oe=65D9F0C4",
+    img: "https://www.joonsquare.com/usermanage/image/business/schaffter-higher-secondary-school-tirunelveli-10049/schaffter-higher-secondary-school-tirunelveli-logo.jpg",
     school: "Schaffter Higher Secondary School, Tirunelveli",
     date: "Apr 2019 - Apr 2020",
     grade: "64%",
@@ -105,7 +149,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fmaa2-4.fna.fbcdn.net/v/t1.6435-9/41675852_377631672774955_7240781168419799040_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=be3454&_nc_ohc=gzLv3vPLK_0AX9pGuct&_nc_ht=scontent.fmaa2-4.fna&oh=00_AfD9cc7dsLc6qX0jcoRtluulwXjsTmiqMiOUVqakZ2uIGg&oe=65D9F0C4",
+    img: "https://www.joonsquare.com/usermanage/image/business/schaffter-higher-secondary-school-tirunelveli-10049/schaffter-higher-secondary-school-tirunelveli-logo.jpg",
     school: "Schaffter Higher Secondary School, Tirunelveli",
     date: "Apr 2017 - Apr 2018",
     grade: "86%",

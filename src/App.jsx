@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import styled,{ThemeProvider} from 'styled-components';
-import {darkTheme} from '../src/utlis/Theme';
-import Navbar from '../src/components/navbar';
-import Hero from '../src/components/herosection';
-import Skills from '../src/components/skills';
-import Education from '../src/components/education';
-import Projects from '../src/components/projects';
-import Contact from '../src/components/contact';
-import Footer from '../src/components/footer';
+import {darkTheme} from './utlis/Theme';
+import Navbar from './components/navbar';
+import Hero from './components/herosection';
+import Skills from './components/skills';
+import Education from './components/education';
+import Projects from './components/projects';
+import Contact from './components/contact';
+import Footer from './components/footer';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Experience from './components/experience';
 
 const Body = styled.div`
     background-color:${({theme})=>theme.bg};
@@ -42,6 +43,7 @@ function App(){
         <Hero />
         <Wrapper>
         <Skills />
+        <Experience />
         </Wrapper>
         <Projects />
         <Wrapper>
