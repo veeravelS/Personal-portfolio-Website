@@ -20,7 +20,11 @@ const Card = styled.div`
         box-shadow:0px 0px 0px rgba(0,0,0,0,2);
         transform:translateY(-5px);
     }
-
+    @media(max-width:768px){
+        padding:10px;
+        gap:8px;
+        width:400px;
+    }
     @media(max-width:468px){
         padding:10px;
         gap:8px;

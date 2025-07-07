@@ -23,8 +23,10 @@ const Container = styled.div`
   }
    @media(max-width:468px){
     padding:0;
-    width:320px;
     justify-content:center;
+   }
+   @media(max-width:350px){
+     width:320px;
    }
   `;
 

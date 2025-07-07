@@ -93,6 +93,7 @@ function Footer() {
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#project">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
@@ -103,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.phone} target="display"><PhoneIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Veeravel. All rights reserved.
+          &copy; 2025 Veeravel. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
