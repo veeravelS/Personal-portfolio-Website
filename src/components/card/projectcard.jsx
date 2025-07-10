@@ -83,7 +83,7 @@ const Description = styled.div`
   color:${({theme})=>theme.text_secondary+99};
   -webkit-box-orient:vertical;
   display:-webkit-box;
-   -webkit-line-clamp: 7;
+   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;

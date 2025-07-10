@@ -197,7 +197,7 @@ export const projects = [
       "https://i.ibb.co/k9bh0N0/portfolio-image.png",
     tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React JS","Styled Components"],
     github: "https://github.com/veeravelS/Personal-portfolio-Website.git",
-    webapp: " https://veeravels.github.io/Personal-portfolio-Website/",
+    webapp: "personal-portfolio-website-veeravels.vercel.app",
   },
   {
     id: 3,
@@ -224,7 +224,19 @@ export const projects = [
     webapp: "https://veeravels.github.io/Currency-Convertor/",
   },
   {
-  id: 5,
+    id: 5,
+    title: "Chat App",
+    date: "Oct 2024",
+    description:
+      "A real-time messaging app with Socket.io, featuring clean UI using Tailwind CSS and Shadcn UI. Includes strong client-side validation and a Node.js + MongoDB backend for seamless communication.",
+    image:
+      "https://i.ibb.co/N2zGK9z9/bg-chatapp.jpg",
+    tags: ["HTML", "CSS", "Javascript", "tailwind CSS", "Shadcn UI", "Socket.io", "Node JS", "Express JS", "MongoDB"],
+    github: "https://github.com/veeravelS/Chat-App.git",
+    webapp: "https://chat-app-js-dev.vercel.app",
+  },
+  {
+  id: 6,
   title: "Online Food Delivery Web App (User & Admin Panel)",
   date: "June 2025",
   description:
@@ -235,7 +247,7 @@ export const projects = [
   webapp: "",
 },
 {
-  id: 6,
+  id: 7,
   title: "Mobile App Admin Panel (Content & User Management)",
   date: "February 2025",
   description:
@@ -246,7 +258,7 @@ export const projects = [
   webapp: "",
 },
 {
-  id: 7,
+  id: 8,
   title: "CMS Admin Panel for Landing Page",
   date: "December 2024",
   description:
